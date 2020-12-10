@@ -1,5 +1,5 @@
 # ATOMIC PROJECTS
-## [NAVBAR 1](https://humansvsaliens.netlify.app)
+## [NAVBAR 1](https://turavinin.github.io/navbar--1/)
 
 Construction of navbar in reference to [this portfolio](https://brittanychiang.com/).
 
