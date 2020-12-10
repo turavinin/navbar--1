@@ -31,7 +31,22 @@ header {
   height: 100px;
 }
 
+.fa-mountain {
+  color: #60f6d3;
+  line-height: 25px;
+  transition: all 0.2s ease-in-out;
+  background-position-y: -3px;
+}
+
+.fa-mountain:hover {
+  background-image: radial-gradient(at center, #60f6d33f 15%, transparent 37%);
+}
+
+/* LOGO WRAPPER */
 #logo-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
 }
 
 /* LINKS WRAPPER */
@@ -87,4 +102,8 @@ button {
 
 button:hover {
   background: #64fcd82d;
+}
+
+button:focus {
+  outline: none;
 }
