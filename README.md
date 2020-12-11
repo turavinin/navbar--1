@@ -6,4 +6,4 @@ Construction of navbar in reference to [this portfolio](https://ianlunn.co.uk/
 
 ![Nav Preview](./images/nav2-example.png)
 
-**Builded with HTML & CSS**
+**Builded with HTML & CSS**s
