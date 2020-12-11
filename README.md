@@ -1,8 +1,7 @@
 # ATOMIC PROJECTS
-## [NAVBAR 2](https://turavinin.github.io/navbar--2/)
+## [NAVBAR 1](turavinin.github.io/navbar--1/)
 
-Construction of navbar in reference to [this portfolio](https://ianlunn.co.uk/
-).
+Construction of navbar in reference to [this portfolio](https://brittanychiang.com/).
 
 ![Nav Preview](./images/navbar-example.png)
 
