@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/bd53be0974.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- META -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLES -->
+    <link
+      rel="stylesheet"
+      href="./styles/styles.css"
+      type="text/css"
+      media="all"
+    />
 
-  <!-- FONT AWESOME -->
-  <script src="https://kit.fontawesome.com/bd53be0974.js" crossorigin="anonymous"></script>
+    <!-- TITLE -->
+    <title>Navbar--1</title>
+  </head>
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="./styles/styles.css" type="text/css" media="all">
-
-  <!-- TITLE -->
-  <title>Navbar--1</title>
-</head>
-
-<body>
-  <header id="header">
-    <div id="logo-wrapper">
-      <i class="fas fa-mountain fa-2x"></i>
-    </div>
-    <div id="links-wrapper">
-      <nav id="navbar">
-        <ul id="nav-ul">
-          <li><a class="nav-link" href="#">01.<span>About</span></a></li>
-          <li><a class="nav-link" href="#">02.<span>Experience</span></a></li>
-          <li><a class="nav-link" href="#">03.<span>Work</span></a></li>
-          <li><a class="nav-link" href="#">04.<span>Contact</span></a></li>
-        </ul>
-      </nav>
-      <div id="resume-wrapper">
-        <button><a href="#">Resume</a></button>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <i class="fas fa-mountain fa-2x"></i>
       </div>
-    </div>
-  </header>
-
-</body>
-
+      <div class="header__text">
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#"
+                >01.<span class="navbar__link--span">About</span></a
+              >
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#"
+                >02.<span class="navbar__link--span">Experience</span></a
+              >
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#"
+                >03.<span class="navbar__link--span">Work</span></a
+              >
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#"
+                >04.<span class="navbar__link--span">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="resume">
+          <button class="resume__btn">
+            <a class="resume__link" href="#">Resume</a>
+          </button>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
