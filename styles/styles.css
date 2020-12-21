@@ -122,4 +122,60 @@ body {
   text-decoration: none;
   color: #60f6d3;
 }
+
+@media only screen and (min-width: 768px) {
+  .header__text {
+    margin-right: 3.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+  .header__text {
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+    top: 0;
+    background-color: #172a45;
+    -webkit-box-shadow: -2px 1px 19px -1px rgba(0, 0, 0, 0.84);
+            box-shadow: -2px 1px 19px -1px rgba(0, 0, 0, 0.84);
+  }
+  .navbar {
+    height: 300px;
+    width: 100%;
+    border: 1px solid green;
+  }
+  .navbar__list {
+    font-size: 1.3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,7 @@
 
 /* ----------------- VARIABLES ---------------- */
 $bgPrimaryColor: #0a192f;
+$bgSecondaryColor: #172a45;
 $fontPrimaryColor: #ccd6f6;
 $fontSecondaryColor: #60f6d3;
 
@@ -109,5 +110,50 @@ body {
   &__link {
     text-decoration: none;
     color: $fontSecondaryColor;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    &__text {
+      margin-right: 3.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+
+  .header__text {
+    position: absolute;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+    top: 0;
+    background-color: $bgSecondaryColor;
+    box-shadow: -2px 1px 19px -1px rgba(0, 0, 0, 0.84);
+  }
+
+  .navbar {
+    height: 300px;
+    width: 100%;
+    border: 1px solid green;
+
+    &__list {
+      font-size: 1.3rem;
+      flex-direction: column;
+      height: 100%;
+      align-content: center;
+      text-align: center;
+      justify-content: space-between;
+    }
   }
 }
