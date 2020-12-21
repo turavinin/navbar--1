@@ -8,7 +8,7 @@ Construction of navbar in reference to [this portfolio](https://brittanychiang.c
 
 Responsive navbar, with animated hamburger menu made with CSS and JS.
 
-![Nav1 Preview](./images/example-7.png)
+![Nav1 Preview](./images/eample-7.png)
 
 ![Nav1 Preview](./images/example-6.png)
 
