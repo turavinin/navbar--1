@@ -158,28 +158,34 @@ body {
     -webkit-box-shadow: -2px 1px 19px -1px rgba(0, 0, 0, 0.84);
             box-shadow: -2px 1px 19px -1px rgba(0, 0, 0, 0.84);
   }
+  .change {
+    right: 0;
+  }
   .hamburger {
     position: absolute;
     top: 30px;
     right: 30px;
   }
-  .hamburger__line1 {
+  .hamburger__line {
     width: 40px;
     height: 3px;
     background-color: #60f6d3;
     margin: 10px 5px;
+    -webkit-transition: opacity 500ms ease-in-out, -webkit-transform 800ms;
+    transition: opacity 500ms ease-in-out, -webkit-transform 800ms;
+    transition: transform 800ms, opacity 500ms ease-in-out;
+    transition: transform 800ms, opacity 500ms ease-in-out, -webkit-transform 800ms;
   }
-  .hamburger__line2 {
-    width: 40px;
-    height: 3px;
-    background-color: #60f6d3;
-    margin: 10px 5px;
+  .change .hamburger__line1 {
+    -webkit-transform: rotateZ(-405deg) translate(-8px, 10.5px);
+            transform: rotateZ(-405deg) translate(-8px, 10.5px);
   }
-  .hamburger__line3 {
-    width: 40px;
-    height: 3px;
-    background-color: #60f6d3;
-    margin: 10px 5px;
+  .change .hamburger__line2 {
+    opacity: 0;
+  }
+  .change .hamburger__line3 {
+    -webkit-transform: rotateZ(405deg) translate(-8px, -10.5px);
+            transform: rotateZ(405deg) translate(-8px, -10.5px);
   }
   .navbar {
     height: 350px;
