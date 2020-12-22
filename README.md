@@ -14,4 +14,4 @@ Responsive navbar, with animated hamburger menu made with CSS and JS.
 
 ![Nav2 Preview](./images/example-5.png)
 
-**Builded with HTML / CSS (SCSS) / JS**
+**Builded with HTML / CSS (Sass) / JS**
